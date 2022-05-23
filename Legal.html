@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #256bd4;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 50px;
+  color:#ffffff;
+}
+
+.header p {
+  font-size: 20px;
+  color:#ffffff;
+}
+
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #256bd4
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+  background-color:#256bd4
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #256bd4;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fede {
+  background-color: rgb(255, 255, 255);
+  width: 70%;
+  padding: 20px;
+  background-image:url(48.png);
+}
+
+
+/* Fake image */
+.news {
+  background-image: url(50.png);
+  background-repeat: repeat;
+  background-position: center;
+  background-color: rgb(255, 255, 255);
+  width: 70%;
+  padding: 20px;
+  
+  
+}
+/* Fake image */
+.Coach {
+  background-image: url(51.png);
+  background-repeat: repeat;
+  background-position: center;
+  background-color: rgb(255, 255, 255);
+  width: 70%;
+  padding: 20px;
+  
+  
+}
+/* Fake image */
+.CR7 {
+  background-image: url(49.png);
+  background-repeat: repeat;
+  background-position: center;
+  background-color: rgb(255, 255, 255);
+  width: 70%;
+  padding: 20px;
+  
+}
+/* Add a card effect for articles */
+.card {
+  background-color:rgb(255, 255, 255);
+  padding: 20px;
+  margin-top: 20px;
+ 
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: rgb(255, 255, 255);
+  margin-top: 20px;
+  
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+a:link, a:visited {
+  background-color: #256bd4;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Avis legal sobre l'empresa</h1>
+  <p>Us de la pagina Web</p>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Condicions d'us</h2>
+      <h5>Explicacio:</h5>
+      <div class="fede" style="height:365px;"></div>
+      <p>La utilització del lloc web us atorga la condicio d'Usuari, i implica l'acceptacio completa de totes les clausules i condicions d'us <br>incloses a les pagines:</p>
+      <p>-Avis Legal</p>
+      <p>-Política de privacitat</p>
+      <p>-Política de Cookies</p>
+    </div>
+    <div class="card">
+      <h2>Avís legal</h2>
+      <h5>Coses a saber sobre els nostres métodes :</h5>
+      <div class="CR7" style="height:380px;width:600;"></div>
+      <p>Si no estigues conforme amb totes i cadascuna d'aquestes clausules i condicions, abstingui's d'utilitzar aquest lloc web.</p>
+      <p>L'acces a aquest lloc web no suposa, de cap manera, l'inici d'una relacio comercial amb el titular.</p>
+      <p>A traves d'aquest lloc web, el Titular us facilita l'acces i la utilitzacio de diversos continguts que el Titular o els seus col·laboradors han publicat per mitja d'Internet.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Majoria d'edat</h2>
+      <div class="news" style="height:150px;width:200"></div>
+      <p>voste ha de tenir almenys 18 anys d'edat per utilitzar els serveis oferts pel Titular o la majoria d'edat que es requereixi el seu pais per registrar-se al lloc web o utilitzar-lo. Si residiu en un pais que no pertanyi a la Regio europea, heu de tenir almenys 13 anys d'edat per utilitzar el lloc web o la majoria d'edat que es requereixi el vostre pais per registrar-se al lloc web o utilitzar-lo.</p>
+    </div>
+    <div class="card">
+      <h3>Mesures de seguretat</h3>
+      <div class="Coach" style="height:260px;width:50"></div>
+      <p>Les dades personals que faciliti al Titular poden ser emmagatzemades en bases de dades automatitzades o no, la titularitat de les quals correspon en exclusiva al Titular, que assumeix totes les mesures d'indole tecnica, organitzativa i de seguretat que garanteixen la confidencialitat, integritat i qualitat de la informacio continguda en aquestes d'acord amb allo establert a la normativa vigent en proteccio de dades.</p>
+      
+    </div>
+    <div class="card">
+      <h3>Seguirnos en Instagram y Twitter
+      </h3>
+      <p>@AdvocatsPedralbes.S.L</p>
+      <p>@AdvocatsPedralbes__</p>
+      <div class="insta" style="height:60px;width:200"></div>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>www.advocatspedralbes.cat</h2>
+<a href="index.html" target="_blank">TORNA A L'INICI</a>
+</div>
+
+</body>
+</html>
